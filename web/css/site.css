@@ -113,3 +113,21 @@ a.desc:after {
 .nav > li > form > button.logout:focus {
     outline: none;
 }
+
+#itemmove-idlist {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+#itemmove-idlist label {
+    display: block;
+}
+
+.report {
+    border-collapse: collapse;
+}
+
+.report th, .report td {
+    border: 1px solid black;
+    padding: 5px;
+}

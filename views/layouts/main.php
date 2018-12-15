@@ -52,7 +52,10 @@ AppAsset::register($this);
                 )
                 . Html::endForm()
                 . '</li>'
-            )
+            ),
+            ['label' => 'Товары', 'url' => ['/item/index']],
+            ['label' => 'Филиалы', 'url' => ['/branch/index']],
+            ['label' => 'Отчёт ревизии', 'url' => ['/report/index']],
         ],
     ]);
     NavBar::end();
